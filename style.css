@@ -5,3 +5,13 @@ body{
 a:hover{
     color: green;
 } 
+a:active{
+    color: blue;
+}
+a{
+    scrollbar-behavior: smooth;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse:collapse ;
+}
