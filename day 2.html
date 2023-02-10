@@ -1,48 +1,363 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<,<title>demo</title><link rel="stylesheet" href="./style.css">
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+a{
+    text-align: center;
+}
+a:hover {
+    text-decoration: dashed;
+@@ -21,4 +25,42 @@ html{
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ul{
+    list-style-type:square;
+    text-align: left;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+.demo{
+    background-color: coral;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#id1{
+    background-color:cadetblue;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: large;
+}
+form{
+    text-align: center;
+}
+#ipid{
+    text-align: center;
+}
+@media(max-width:600px)
+{
+    body{
+        background-color: aqua;
+    }
+}
+button{
+    align-items: center;
+    text-align: center;
+
+    width: 150px;
+    background-color: cyan;
+    text-emphasis-color: black;
+}
+  263  
+a1.html
+@@ -8,14 +8,18 @@
+    <link rel="stylesheet" href="./a1.css">
 </head>
 <body>
-    
-<h1 style="background-color: aquamarine;"">hello</h1>
-<h1>hello</h1>
-<a href="tel:8217476416" target="_blank">hi</a>
+<!-- day 1 -->
+    <h1>Hello</h1>
+    <!-- <a href="https://github.com/Mohammed-Awan/K-Means" target="_blank">
+    <br>
+    <a href="https://github.com/Mohammed-Awan/K-Means" target="_blank">
+        <img src="./online-coding-classes.jpg" alt="Can't reach">
+    </a><br>
+    <a href="mailto:aimonmohammed41@gmail.com" target="_blank">
+    <a href="mailto:rachannayak56@gmail.com" target="_blank">
+       demo@gmail.com
+    </a><br>
+    <a href="tel:9113616679"> call me daddy</a><br> -->
+    <a href="tel:9113616679"> call me daddy</a><br> 
+<!-- day 2 -->
+
+    <a href="#ch4">Chapter 4</a><br>
+    <a href="#ch5">Chapter 5</a><br>
+    <p style="border: 20cm; font-size: large; font-weight: 200; font-family: 'Courier New', Courier, monospace; background-color: aqua;">This is a paragraph</p>
+@@ -82,5 +86,258 @@ <h3 id="ch5">Chapter 5</h3>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+<!-- day 3 -->
+            <table>
+                <tr>
+                    <th>apple</th>
+                    <th>
+                        orange
+                    </th>
+                    <th>
+                        pineapple
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        rice
+                    </td>
+                    <td colspan="2">
+                        roti
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th>
+                        animal
+                    </th>
+                    <th>region</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">tiger</td>
+                    <td>india</td>
+                </tr>
+                <tr>
+                    <td>west bengal</td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <ol>
+                <li>
+                    awan
+                </li>
+                <li>
+                    rachana
+                </li>
+                <li>
+                    simran
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    noob
+                </li>
+                <li>
+                    topper
+                </li>
+                <li>
+                    scholar
+                </li>
+            </ul>
+            <br>
+            <br>
+            <iframe src="https://ww4.gogoanime2.org/home" width="600px" height="600px"></iframe>
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_IW4TJoEdsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <br>
+            <br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.9062865357789!2d74.71944191663404!3d13.38816607430382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbdb2c34e285f%3A0x4c04c513a38b5ed6!2sNejar%20-Kemmannu%20Road%2C%20Karnataka%20576115!5e0!3m2!1sen!2sin!4v1675838251726!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            <br>
+
+            <p class="paraclass demo">This is an exmple of class attrribute</p>
+            <br>
+            <p id="id1">This is an example of id attribute</p>
+
+            <br>
+            <br>
+            <form>
+                <label>Name</label>
+                <input type="text"><br><br>
+                <select>
+                    <option value="0">Select an item</option>
+                    <option value="food">Biryani</option>
+                    <option value="beverage">Pepsi</option>
+                    <option value="platter">Shawarma</option>
+                </select>
+                <br>
+                <br>
+                <label>Password</label>
+                <input type="password" placeholder="Enter a gaaf faad password" required> 
+                <!-- reuired,disabled,readonly -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <input type="file"><br >
+                <br>
+               <label>Apple</label>
+                <input type="checkbox" value="apple">
+                <br>
+                <br>
+                <input type="text"  id="ipid"value="Awan" readonly> <br>
+                <br>
+                <label>Rachana</label>
+                <input type="text" value="mental" disabled>
+                <br>
+                <br>
+                <label>Set range</label>
+                <input type="range">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <br>
+            <!-- we can define it in body and also in head,,,script tag -->
+            <p id="id2"></p>
+
+            <br>
+            <br>
+            <noscript>Sorry your browser does not supportb JavaScript</noscript>
+
+<!-- day4 -->
+            <button onclick="myFunction(5,10)">Sum of 5 and 10</button>
+            <br>
+            <br>
+            <button onclick="myFunction(50,100)">Alert 2</button>
+
+            <button onclick="func(10)">Check</button>
+            <script>
+
+                 function myFunction(x,b)
+                {
+                    alert((x+b)+" button alag hai tho answer bhi alag rahega na chomtiye");
+                }
+
+                function func(x)
+                {
+                    if(x==5)
+                    {
+                        alert("X is 5");
+                    }
+                    else{
+                        alert("x is not 5");
+                    }
+                }
+
+                var a=10;
+                let b=5;
+                const c=15;
+                console.log(a,b,c);
+                var total=a+b+c;
+                console.log(total);
+                var sub=c-b-a;
+                console.log(sub);
+                var mul=a*b*c;
+                console.log(mul);
+                var inc=++a;
+                console.log(inc);
+                var mod=a%b;
+                console.log(mod);
+                var x=100;
+                x+=5;
+                console.log(x);
+
+                var p=5;
+                var str1="Hello";
+                var str2="World";
+                var str3="Hello";
+                var bool1=true;
+                var bool2=false;
+                var demo;
+
+                var arr=[1,2,3,4,10,50,100,"Hello"];
+
+                var obj={name:"accelerlab",year:2023,color:"orange"}; // object datatype
+
+                var date=new Date();
+
+                console.log(p+str1);
+
+                console.log(str1+" "+str2); 
+
+                console.log(str1==str2);
+                console.log(x!=a);
+
+                console.log(x>=10);
+                console.log(x<10);
+
+                console.log(x==10 && x!=10);
+
+                console.log(x>=5 && x>50);
+
+                console.log(str1==="Hello" || str1==="World");
+
+                console.log(!(x!=105));
+
+                console.log(!(str1===str3));
+
+
+                console.log(arr);
+                console.log(obj);
+                console.log(obj.name);
+                console.log(obj.year);
+
+                console.log(arr[0]);
+                console.log(arr[5]);
+
+                console.log(arr.length);
+
+                console.log(date);
+
+                console.log(date.getDate());
+                console.log(date.getFullYear());
+                console.log(date.getHours());
+                console.log(date.getMinutes());
+                console.log(date.getSeconds());
+                console.log(date.getMilliseconds());
+
+                arr.pop();
+                console.log(arr);
+                arr.push("World");
+                console.log(arr);
+
+                console.log(arr.join("*"));
+
+                if(str1=="Hello")
+                {
+                    console.log("str1 is Hello");
+                }
+
+                arr.map((item) => {
+                    console.log(item);
+                });
 
 
 
-<p id="ch4">
 
-    garet Rhea Seddon (born November 8, 1947) is an American surgeon and retired NASA astronaut. After being selected as part of the first group of astronauts to include women in 1978, she flew on three Space Shuttle flights: as mission specialist on STS-51-D and STS-40, and as payload commanderfor STS-58, accumulating over 722 hours in space. On these flights, she built repair tools for a US Navy satellite and performed medical experiments.
+                document.getElementById("id2").innerHTML="Hello World";
+            switch(new Date().getDate()) {
+                case 0:
+                    console.log("Sunday");
+                    break;
+                case 1:
+                    console.log("Monday");
+                    break;
+                case 2:
+                    console.log("Tuesday");
+                    break;
+                case 3:
+                    console.log("Wednesday");
+                    break;
+                case 4:
+                    console.log("Thursday");
+                    break;
+                case 5:
+                    console.log("Friday");
+                    break;
+                case 6:
+                    console.log("Saterday");
+                    break;
+                default:
+                    console.log("No Match");
+                    break;
 
-    A graduate of the University of California, Berkeley, and the University of Tennessee College of Medicine, Seddon was awarded her doctor of medicine (MD) degree in 1973. During her residency with the University of Tennessee hospitals, she was the only woman in the General Surgery Residency Program. Before, during and after her career in the astronaut program, she was active in emergency departments in Tennessee, Mississippi and Texas.
-    
-    Seddon became an astronaut in August 1979 after selection as a candidate the year prior. At NASA her development work included the Space Shuttle Orbiter and payload software, the Shuttle Avionics Integration Laboratory, the Flight Data File, the Space Shuttle medical kit and checklists for launch and landing. She was a rescue helicopter physician for the early Space Shuttle flights and support crew member for STS-6. She served as a member of NASA's Aerospace Medical Advisory Committee, a Technical Assistant to the Director of Flight Crew Operations, and a Capsule Communicator (CAPCOM) in the Mission Control Center. In 1996 she was detailed by NASA to Vanderbilt University Medical School in Nashville, Tennessee, where she assisted in the preparation of cardiovascular experiments that flew on the STS-90 Neurolab Spacelab flight in April 1998. She retired from NASA in November 1997 and became Chief Medical Officer of the Vanderbilt Medical Group.
-</p>
-<a href ="#ch4:"chapter 4 >ch4</a>
-<a href="#ch10":chapter 10 >ch10</a>
-<table>
-    <tr>
-        <th>s1.no</th>
-        <th>name</th>
-        <th>age</th>
-    </tr>
-    <tr>
-        <th>1</th>
-        <th>sadhvi</th>
-        <th>21</th>
-    </tr>
-     <tr>
-        <th>2</th>
-        <th>megha</th>
-        
-        <th>22</th>
-    </tr>
+            }    
+            </script>
 
-</table>
+
+
+
 </body>
 </html>
